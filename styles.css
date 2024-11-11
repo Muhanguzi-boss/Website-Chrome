@@ -1,5 +1,35 @@
-* {
+* {margin: 0;               
+    height: 100vh;           
+    background-image: url('https://images.app.goo.gl/CPknxmEhNy6uFGhM9'); 
+    background-position: center;   
+    background-size: cover;       
+    background-repeat: no-repeat; 
  padding: 0;
  margin: 0;
  background-color: white;
+}
+.container {
+display : flex;
+justify-content: center;
+align-items: center;
+}
+.centered {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.design {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    margin:0;
+}
+h1 {
+    font-size: 4em;       
+    text-align: center;
+    color: #333;         
+    margin: 0;
 }
